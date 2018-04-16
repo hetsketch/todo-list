@@ -1,0 +1,35 @@
+.add-todo {
+    max-width: 496px;
+    width: 100%;
+}
+
+.add-todo__input {
+    width: calc(100% - 10px);
+    border-radius: 10px;
+    border: 1px solid #000;
+    line-height: 35px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+.add-todo__input:focus {
+    outline: 0;
+    box-shadow: 1px 1px 1px #ccc;
+}
+
+.add-todo__btn {
+    position: relative;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 48px;
+    color: green;
+}
+
+.add-todo__btn::before {
+    content: '+';
+    position: absolute;
+    top: -8px;
+    left: 10px;
+
+}
